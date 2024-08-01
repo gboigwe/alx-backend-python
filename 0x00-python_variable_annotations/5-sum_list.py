@@ -1,4 +1,4 @@
-#!/usr/bin/rnv python3
+#!/usr/bin/env python3
 """Type-annotaion function for list of sum of float"""
 from typing import List
 
