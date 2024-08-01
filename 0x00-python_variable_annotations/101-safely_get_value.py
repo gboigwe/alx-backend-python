@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """Type-annotated function in advanced way"""
-"""Advanced type annotated function"""
 from typing import Any, Mapping, TypeVar, Union
 T = TypeVar('T')
 
