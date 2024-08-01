@@ -1,4 +1,4 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python3
 """Checking for the type-annotate"""
 from typing import List, Tuple
 
