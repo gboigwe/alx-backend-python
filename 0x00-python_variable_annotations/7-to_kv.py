@@ -9,5 +9,5 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     """function that takes a string and int OR float
     v as arguments and returns a tuple
     """
-    index = k ** 2
-    return (v, index)
+    index = v ** 2
+    return (k, index)
