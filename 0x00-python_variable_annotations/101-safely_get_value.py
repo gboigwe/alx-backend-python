@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Type-annotated function in advanced way"""
-from typing import Mapping, Any, Union, TypeVar
-T = TypeVar('T')
+from typing import Mapping, Any, Union, Typevar
+T = Typevar('T')
 
 
 def safely_get_value(dct: Mapping, key: Any, default: Union[T, None]
