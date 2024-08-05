@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" """
+"""Writing a function using a regular"""
 
 
 import asyncio
