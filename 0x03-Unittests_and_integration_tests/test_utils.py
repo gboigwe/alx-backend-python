@@ -21,7 +21,7 @@ class TestAccessNestedMap(TestCase):
     ])
     def test_access_nested_map(self, nested_map, path, expected):
         """ Testing the method
-        what returns and what it is supposed to 
+        what returns and what it is supposed to
         """
         self.assertEqual(access_nested_map(nested_map, path), expected)
 
